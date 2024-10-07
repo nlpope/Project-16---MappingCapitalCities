@@ -14,6 +14,7 @@
 		40A8103F2CB3B23600653999 /* Project_16___MappingCapitalCities.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A8103D2CB3B23600653999 /* Project_16___MappingCapitalCities.xcdatamodeld */; };
 		40A810412CB3B23E00653999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A810402CB3B23E00653999 /* Assets.xcassets */; };
 		40A810442CB3B23E00653999 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40A810432CB3B23E00653999 /* Base */; };
+		40A8104C2CB3B98E00653999 /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8104B2CB3B98E00653999 /* Capital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40A810402CB3B23E00653999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A810432CB3B23E00653999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40A810452CB3B23E00653999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A8104B2CB3B98E00653999 /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				40A810342CB3B23600653999 /* AppDelegate.swift */,
 				40A810362CB3B23600653999 /* SceneDelegate.swift */,
+				40A8104B2CB3B98E00653999 /* Capital.swift */,
 				40A810382CB3B23600653999 /* ViewController.swift */,
 				40A8103A2CB3B23600653999 /* Main.storyboard */,
 				40A810402CB3B23E00653999 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				40A810352CB3B23600653999 /* AppDelegate.swift in Sources */,
 				40A810372CB3B23600653999 /* SceneDelegate.swift in Sources */,
 				40A8103F2CB3B23600653999 /* Project_16___MappingCapitalCities.xcdatamodeld in Sources */,
+				40A8104C2CB3B98E00653999 /* Capital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
