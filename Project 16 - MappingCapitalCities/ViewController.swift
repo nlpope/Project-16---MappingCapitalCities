@@ -17,6 +17,8 @@ class ViewController: UIViewController & MKMapViewDelegate {
     var rome: Capital!
     var washington: Capital!
     
+    var testInfo = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpCities()
@@ -67,6 +69,30 @@ class ViewController: UIViewController & MKMapViewDelegate {
         let ac              = UIAlertController(title: placeName, message: placeInfo, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))
         present(ac, animated: true)
+    }
+    
+    
+    func testSaver() {
+        let jsonEncoder     = JSONEncoder()
+        if let encodedData  = try? jsonEncoder.encode(testInfo) {
+            let defaults    = UserDefaults.standard
+            defaults.set(encodedData, forKey: "testString")
+        } else {
+            print("failed to save")
+        }
+    }
+    
+    
+    func testLoader() {
+        let defaults        = UserDefaults.standard
+        if let dataToDecode = defaults.object(forKey: "testString") as? Data {
+            let jsonDecoder = JSONDecoder()
+            do {
+                testInfo    = try jsonDecoder.decode(String.self, from: dataToDecode)
+            } catch {
+                print("failed to load")
+            }
+        }
     }
 }
 
