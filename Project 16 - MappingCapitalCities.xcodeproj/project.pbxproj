@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		407E8AE42CB7AC1A00D58055 /* DetailsWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E8AE32CB7AC1A00D58055 /* DetailsWebVC.swift */; };
 		40A810352CB3B23600653999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A810342CB3B23600653999 /* AppDelegate.swift */; };
 		40A810372CB3B23600653999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A810362CB3B23600653999 /* SceneDelegate.swift */; };
 		40A810392CB3B23600653999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A810382CB3B23600653999 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		407E8AE32CB7AC1A00D58055 /* DetailsWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsWebVC.swift; sourceTree = "<group>"; };
 		40A810312CB3B23600653999 /* Project 16 - MappingCapitalCities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 16 - MappingCapitalCities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A810342CB3B23600653999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40A810362CB3B23600653999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				40A810362CB3B23600653999 /* SceneDelegate.swift */,
 				40A8104B2CB3B98E00653999 /* Capital.swift */,
 				40A810382CB3B23600653999 /* ViewController.swift */,
+				407E8AE32CB7AC1A00D58055 /* DetailsWebVC.swift */,
 				40A8103A2CB3B23600653999 /* Main.storyboard */,
 				40A810402CB3B23E00653999 /* Assets.xcassets */,
 				40A810422CB3B23E00653999 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				40A810352CB3B23600653999 /* AppDelegate.swift in Sources */,
 				40A810372CB3B23600653999 /* SceneDelegate.swift in Sources */,
 				40A8103F2CB3B23600653999 /* Project_16___MappingCapitalCities.xcdatamodeld in Sources */,
+				407E8AE42CB7AC1A00D58055 /* DetailsWebVC.swift in Sources */,
 				40A8104C2CB3B98E00653999 /* Capital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
